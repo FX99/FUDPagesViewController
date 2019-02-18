@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170345E32213FCE70045A8D1 /* FUDPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170345E22213FCE70045A8D1 /* FUDPageViewController.m */; };
+		170345E72214177E0045A8D1 /* FUDPageTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 170345E62214177E0045A8D1 /* FUDPageTabCell.m */; };
+		174F7F2D2215403500F49FD3 /* FUDPageTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 174F7F2C2215403500F49FD3 /* FUDPageTabView.m */; };
+		178F2F6C2213B33F003B162B /* FUDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 178F2F6B2213B33F003B162B /* FUDScrollView.m */; };
+		17F5EA1022111D1C00AA9593 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5EA0F22111D1C00AA9593 /* AppDelegate.m */; };
+		17F5EA1322111D1C00AA9593 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5EA1222111D1C00AA9593 /* ViewController.m */; };
+		17F5EA1622111D1C00AA9593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F5EA1422111D1C00AA9593 /* Main.storyboard */; };
+		17F5EA1822111D1D00AA9593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F5EA1722111D1D00AA9593 /* Assets.xcassets */; };
+		17F5EA1B22111D1D00AA9593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F5EA1922111D1D00AA9593 /* LaunchScreen.storyboard */; };
+		17F5EA1E22111D1D00AA9593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5EA1D22111D1D00AA9593 /* main.m */; };
+		17F5EA2822111D1D00AA9593 /* FUDTabPagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5EA2722111D1D00AA9593 /* FUDTabPagesTests.m */; };
+		17F5EA3322111D1D00AA9593 /* FUDTabPagesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5EA3222111D1D00AA9593 /* FUDTabPagesUITests.m */; };
+		17F5EA4822115C2500AA9593 /* FUDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5EA4722115C2500AA9593 /* FUDTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17F5EA2422111D1D00AA9593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17F5EA0322111D1C00AA9593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17F5EA0A22111D1C00AA9593;
+			remoteInfo = FUDTabPages;
+		};
+		17F5EA2F22111D1D00AA9593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17F5EA0322111D1C00AA9593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17F5EA0A22111D1C00AA9593;
+			remoteInfo = FUDTabPages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170345E12213FCE70045A8D1 /* FUDPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUDPageViewController.h; sourceTree = "<group>"; };
+		170345E22213FCE70045A8D1 /* FUDPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUDPageViewController.m; sourceTree = "<group>"; };
+		170345E52214177E0045A8D1 /* FUDPageTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUDPageTabCell.h; sourceTree = "<group>"; };
+		170345E62214177E0045A8D1 /* FUDPageTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUDPageTabCell.m; sourceTree = "<group>"; };
+		174F7F2B2215403500F49FD3 /* FUDPageTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUDPageTabView.h; sourceTree = "<group>"; };
+		174F7F2C2215403500F49FD3 /* FUDPageTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUDPageTabView.m; sourceTree = "<group>"; };
+		178F2F6A2213B33F003B162B /* FUDScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUDScrollView.h; sourceTree = "<group>"; };
+		178F2F6B2213B33F003B162B /* FUDScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUDScrollView.m; sourceTree = "<group>"; };
+		17F5EA0B22111D1C00AA9593 /* FUDTabPages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FUDTabPages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F5EA0E22111D1C00AA9593 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17F5EA0F22111D1C00AA9593 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17F5EA1122111D1C00AA9593 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17F5EA1222111D1C00AA9593 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17F5EA1522111D1C00AA9593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17F5EA1722111D1D00AA9593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17F5EA1A22111D1D00AA9593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17F5EA1C22111D1D00AA9593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F5EA1D22111D1D00AA9593 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17F5EA2322111D1D00AA9593 /* FUDTabPagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FUDTabPagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F5EA2722111D1D00AA9593 /* FUDTabPagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUDTabPagesTests.m; sourceTree = "<group>"; };
+		17F5EA2922111D1D00AA9593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F5EA2E22111D1D00AA9593 /* FUDTabPagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FUDTabPagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F5EA3222111D1D00AA9593 /* FUDTabPagesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUDTabPagesUITests.m; sourceTree = "<group>"; };
+		17F5EA3422111D1D00AA9593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17F5EA4622115C2500AA9593 /* FUDTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUDTableViewController.h; sourceTree = "<group>"; };
+		17F5EA4722115C2500AA9593 /* FUDTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUDTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17F5EA0822111D1C00AA9593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F5EA2022111D1D00AA9593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F5EA2B22111D1D00AA9593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170345E42213FCEF0045A8D1 /* PageController */ = {
+			isa = PBXGroup;
+			children = (
+				178F2F6A2213B33F003B162B /* FUDScrollView.h */,
+				178F2F6B2213B33F003B162B /* FUDScrollView.m */,
+				170345E52214177E0045A8D1 /* FUDPageTabCell.h */,
+				170345E62214177E0045A8D1 /* FUDPageTabCell.m */,
+				174F7F2B2215403500F49FD3 /* FUDPageTabView.h */,
+				174F7F2C2215403500F49FD3 /* FUDPageTabView.m */,
+				170345E12213FCE70045A8D1 /* FUDPageViewController.h */,
+				170345E22213FCE70045A8D1 /* FUDPageViewController.m */,
+			);
+			path = PageController;
+			sourceTree = "<group>";
+		};
+		17F5EA0222111D1C00AA9593 = {
+			isa = PBXGroup;
+			children = (
+				17F5EA0D22111D1C00AA9593 /* FUDTabPages */,
+				17F5EA2622111D1D00AA9593 /* FUDTabPagesTests */,
+				17F5EA3122111D1D00AA9593 /* FUDTabPagesUITests */,
+				17F5EA0C22111D1C00AA9593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17F5EA0C22111D1C00AA9593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17F5EA0B22111D1C00AA9593 /* FUDTabPages.app */,
+				17F5EA2322111D1D00AA9593 /* FUDTabPagesTests.xctest */,
+				17F5EA2E22111D1D00AA9593 /* FUDTabPagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17F5EA0D22111D1C00AA9593 /* FUDTabPages */ = {
+			isa = PBXGroup;
+			children = (
+				170345E42213FCEF0045A8D1 /* PageController */,
+				17F5EA0E22111D1C00AA9593 /* AppDelegate.h */,
+				17F5EA0F22111D1C00AA9593 /* AppDelegate.m */,
+				17F5EA1122111D1C00AA9593 /* ViewController.h */,
+				17F5EA1222111D1C00AA9593 /* ViewController.m */,
+				17F5EA4622115C2500AA9593 /* FUDTableViewController.h */,
+				17F5EA4722115C2500AA9593 /* FUDTableViewController.m */,
+				17F5EA1422111D1C00AA9593 /* Main.storyboard */,
+				17F5EA1722111D1D00AA9593 /* Assets.xcassets */,
+				17F5EA1922111D1D00AA9593 /* LaunchScreen.storyboard */,
+				17F5EA1C22111D1D00AA9593 /* Info.plist */,
+				17F5EA1D22111D1D00AA9593 /* main.m */,
+			);
+			path = FUDTabPages;
+			sourceTree = "<group>";
+		};
+		17F5EA2622111D1D00AA9593 /* FUDTabPagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				17F5EA2722111D1D00AA9593 /* FUDTabPagesTests.m */,
+				17F5EA2922111D1D00AA9593 /* Info.plist */,
+			);
+			path = FUDTabPagesTests;
+			sourceTree = "<group>";
+		};
+		17F5EA3122111D1D00AA9593 /* FUDTabPagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17F5EA3222111D1D00AA9593 /* FUDTabPagesUITests.m */,
+				17F5EA3422111D1D00AA9593 /* Info.plist */,
+			);
+			path = FUDTabPagesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17F5EA0A22111D1C00AA9593 /* FUDTabPages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17F5EA3722111D1D00AA9593 /* Build configuration list for PBXNativeTarget "FUDTabPages" */;
+			buildPhases = (
+				17F5EA0722111D1C00AA9593 /* Sources */,
+				17F5EA0822111D1C00AA9593 /* Frameworks */,
+				17F5EA0922111D1C00AA9593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FUDTabPages;
+			productName = FUDTabPages;
+			productReference = 17F5EA0B22111D1C00AA9593 /* FUDTabPages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17F5EA2222111D1D00AA9593 /* FUDTabPagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17F5EA3A22111D1D00AA9593 /* Build configuration list for PBXNativeTarget "FUDTabPagesTests" */;
+			buildPhases = (
+				17F5EA1F22111D1D00AA9593 /* Sources */,
+				17F5EA2022111D1D00AA9593 /* Frameworks */,
+				17F5EA2122111D1D00AA9593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17F5EA2522111D1D00AA9593 /* PBXTargetDependency */,
+			);
+			name = FUDTabPagesTests;
+			productName = FUDTabPagesTests;
+			productReference = 17F5EA2322111D1D00AA9593 /* FUDTabPagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17F5EA2D22111D1D00AA9593 /* FUDTabPagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17F5EA3D22111D1D00AA9593 /* Build configuration list for PBXNativeTarget "FUDTabPagesUITests" */;
+			buildPhases = (
+				17F5EA2A22111D1D00AA9593 /* Sources */,
+				17F5EA2B22111D1D00AA9593 /* Frameworks */,
+				17F5EA2C22111D1D00AA9593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17F5EA3022111D1D00AA9593 /* PBXTargetDependency */,
+			);
+			name = FUDTabPagesUITests;
+			productName = FUDTabPagesUITests;
+			productReference = 17F5EA2E22111D1D00AA9593 /* FUDTabPagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17F5EA0322111D1C00AA9593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = fudo;
+				TargetAttributes = {
+					17F5EA0A22111D1C00AA9593 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					17F5EA2222111D1D00AA9593 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 17F5EA0A22111D1C00AA9593;
+					};
+					17F5EA2D22111D1D00AA9593 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 17F5EA0A22111D1C00AA9593;
+					};
+				};
+			};
+			buildConfigurationList = 17F5EA0622111D1C00AA9593 /* Build configuration list for PBXProject "FUDTabPages" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17F5EA0222111D1C00AA9593;
+			productRefGroup = 17F5EA0C22111D1C00AA9593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17F5EA0A22111D1C00AA9593 /* FUDTabPages */,
+				17F5EA2222111D1D00AA9593 /* FUDTabPagesTests */,
+				17F5EA2D22111D1D00AA9593 /* FUDTabPagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17F5EA0922111D1C00AA9593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F5EA1B22111D1D00AA9593 /* LaunchScreen.storyboard in Resources */,
+				17F5EA1822111D1D00AA9593 /* Assets.xcassets in Resources */,
+				17F5EA1622111D1C00AA9593 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F5EA2122111D1D00AA9593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F5EA2C22111D1D00AA9593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17F5EA0722111D1C00AA9593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170345E72214177E0045A8D1 /* FUDPageTabCell.m in Sources */,
+				17F5EA1322111D1C00AA9593 /* ViewController.m in Sources */,
+				178F2F6C2213B33F003B162B /* FUDScrollView.m in Sources */,
+				17F5EA1E22111D1D00AA9593 /* main.m in Sources */,
+				17F5EA4822115C2500AA9593 /* FUDTableViewController.m in Sources */,
+				170345E32213FCE70045A8D1 /* FUDPageViewController.m in Sources */,
+				174F7F2D2215403500F49FD3 /* FUDPageTabView.m in Sources */,
+				17F5EA1022111D1C00AA9593 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F5EA1F22111D1D00AA9593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F5EA2822111D1D00AA9593 /* FUDTabPagesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F5EA2A22111D1D00AA9593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F5EA3322111D1D00AA9593 /* FUDTabPagesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17F5EA2522111D1D00AA9593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17F5EA0A22111D1C00AA9593 /* FUDTabPages */;
+			targetProxy = 17F5EA2422111D1D00AA9593 /* PBXContainerItemProxy */;
+		};
+		17F5EA3022111D1D00AA9593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17F5EA0A22111D1C00AA9593 /* FUDTabPages */;
+			targetProxy = 17F5EA2F22111D1D00AA9593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17F5EA1422111D1C00AA9593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17F5EA1522111D1C00AA9593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17F5EA1922111D1D00AA9593 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17F5EA1A22111D1D00AA9593 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17F5EA3522111D1D00AA9593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17F5EA3622111D1D00AA9593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17F5EA3822111D1D00AA9593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AR95QDSAR;
+				INFOPLIST_FILE = FUDTabPages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fudo.FUDTabPages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17F5EA3922111D1D00AA9593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AR95QDSAR;
+				INFOPLIST_FILE = FUDTabPages/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fudo.FUDTabPages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17F5EA3B22111D1D00AA9593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AR95QDSAR;
+				INFOPLIST_FILE = FUDTabPagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fudo.FUDTabPagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FUDTabPages.app/FUDTabPages";
+			};
+			name = Debug;
+		};
+		17F5EA3C22111D1D00AA9593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AR95QDSAR;
+				INFOPLIST_FILE = FUDTabPagesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fudo.FUDTabPagesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FUDTabPages.app/FUDTabPages";
+			};
+			name = Release;
+		};
+		17F5EA3E22111D1D00AA9593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AR95QDSAR;
+				INFOPLIST_FILE = FUDTabPagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fudo.FUDTabPagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FUDTabPages;
+			};
+			name = Debug;
+		};
+		17F5EA3F22111D1D00AA9593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AR95QDSAR;
+				INFOPLIST_FILE = FUDTabPagesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fudo.FUDTabPagesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FUDTabPages;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17F5EA0622111D1C00AA9593 /* Build configuration list for PBXProject "FUDTabPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F5EA3522111D1D00AA9593 /* Debug */,
+				17F5EA3622111D1D00AA9593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17F5EA3722111D1D00AA9593 /* Build configuration list for PBXNativeTarget "FUDTabPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F5EA3822111D1D00AA9593 /* Debug */,
+				17F5EA3922111D1D00AA9593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17F5EA3A22111D1D00AA9593 /* Build configuration list for PBXNativeTarget "FUDTabPagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F5EA3B22111D1D00AA9593 /* Debug */,
+				17F5EA3C22111D1D00AA9593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17F5EA3D22111D1D00AA9593 /* Build configuration list for PBXNativeTarget "FUDTabPagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17F5EA3E22111D1D00AA9593 /* Debug */,
+				17F5EA3F22111D1D00AA9593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17F5EA0322111D1C00AA9593 /* Project object */;
+}
