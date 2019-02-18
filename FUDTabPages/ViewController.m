@@ -34,7 +34,7 @@
     header.backgroundColor = UIColor.cyanColor;
     vc.headerView = header;
     //    vc.headerHeight = 200;
-    vc.defaultIndex = 5;
+    vc.defaultIndex = 0;
     //    vc.pageTabView.normalTitleFont    = [UIFont systemFontOfSize:16.];
     //    vc.pageTabView.selectedTitleFont  = [UIFont boldSystemFontOfSize:16];
     //    vc.pageTabView.normalTitleColor   = UIColor.lightGrayColor;
